@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: GilroyLight;
+    src: url(./Gilroy-Light.otf);
+}
+
+body {
+    background-image: url("./assets/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    /* display: block; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+nav img {
+    display: inline;
+    float: left;
+    margin-left: 5%;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    font-family: GilroyLight;
+    font-size: 20px;
+}
+
+nav button {
+    background:#19AD52;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    font-family: GilroyLight;
+    border-radius: 18px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.6px;
+    margin-right: 5%;
+}
+
+.mainBody {
+    margin-top: 40px;
+    font-family: GilroyLight;
+    text-align: center;
+}
+
+.mainBody h1 {
+    font-weight: 700;
+    font-size: 72.84px;
+    line-height: 90.18px;
+    font-style: normal;
+    color: #131313;
+}
+
+.mainBody p {
+    font-weight: 500;
+    font-size: 35.84px;
+    line-height: 43.47px;
+}
+
+.mainBody button {
+    background: #F70059;
+    border-radius: 18px;
+    color: white;
+    border: none;
+    padding: 18px 23px 18px 23px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sweetLeft  img{
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
+.sweetRight img {
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+.boxes {
+   position: absolute;
+   bottom: 0;
+}
+
+.boxes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
